@@ -1,0 +1,164 @@
+
+#div_main {
+    display: flex;
+    /* border: 2px solid yellow; */
+    gap: 10px;
+
+}
+
+#div_main>div {
+    width: 300px;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+
+#content {
+    display: flex;
+    /* border: 2px solid yellow; */
+    gap: 50px;
+    margin-top: 20px;
+    /* flex-wrap: wrap; */
+
+}
+
+#like_btn,
+#cart_btn {
+    background-color: rgb(255, 167, 2);
+    width: 250px;
+    height: 80px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#content>div {
+    width: auto;
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+    /* justify-content: center; */
+    text-align: left;
+    overflow: hidden;
+    padding-left: 5px;
+    background-color: white;
+    border-radius: 100px 100px 10px 10px;
+
+}
+
+#cont45 {
+    border: 2px solid rgb(185, 235, 255);
+    width: 500px;
+    height: auto;
+    /* display: flex; */
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 5px;
+    background-color: rgb(185, 235, 255);
+}
+
+header {
+    border: 2px solid rgb(252, 204, 212);
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(252, 204, 212);
+}
+
+footer {
+    border: 2px solid gainsboro;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: gainsboro;
+
+}
+
+#nav {
+    padding-top: 40px;
+    padding-right: 20px;
+    background-color: rgb(252, 204, 212);
+    ;
+}
+
+#content2 {
+    display: flex;
+    /* border: 2px solid yellow; */
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+#btn {
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    margin-left: 75px;
+    background-color: rgb(243, 147, 56);
+    border: 2px solid rgb(247, 124, 10)
+}
+
+#logo {
+    padding-top: 20px;
+    background-color: rgb(252, 204, 212);
+    ;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.Homefooter{
+    background-color:black;
+}
+
+@media screen and (max-width: 480px) {
+    #content {
+        display: unset;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #div_main {
+        display: unset;
+        max-width: 100%;
+        height: auto;
+    }
+
+    header {
+        display: unset;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #content2 {
+        display: unset;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #btn {
+        margin-left: 80px;
+        width: 150px;
+        height: auto;
+    }
+
+    #cont45 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #like_btn,
+    #cart_btn {
+        height: 50px;
+        width: 150px;
+        margin-left: 20px;
+    }
+
+
+
+}
+
