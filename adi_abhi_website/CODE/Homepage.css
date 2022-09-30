@@ -1,4 +1,3 @@
-
 #div_main {
     display: flex;
     /* border: 2px solid yellow; */
@@ -63,15 +62,7 @@ header {
     background-color: rgb(252, 204, 212);
 }
 
-footer {
-    border: 2px solid gainsboro;
-    height: 50px;
-    margin-top: 10px;
-    text-align: center;
-    padding-top: 5px;
-    background-color: gainsboro;
 
-}
 
 #nav {
     padding-top: 40px;
@@ -102,18 +93,9 @@ footer {
 #logo {
     padding-top: 20px;
     background-color: rgb(252, 204, 212);
-    ;
+    
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-.Homefooter{
-    background-color:black;
-}
 
 @media screen and (max-width: 480px) {
     #content {
@@ -162,3 +144,111 @@ img {
 
 }
 
+
+.Homelogo {
+
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.navigation {
+
+    /* position: fixed; */
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+.navigation .nav-item {
+    padding: 0 0.625rem;
+
+}
+
+.navigation .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+#static_img {
+    width: 100%;
+  /*   height: 800px; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/images/image1Copy.jpg);
+    margin-bottom: 8px;
+
+}
+
+#temp {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+#temp1 {
+    /* width: 100%; */
+    height: 550px;
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    /* border: 2px solid black; */
+   /*  padding-left: 300px;
+    padding-top: 50px; */
+    text-align: center;
+    text-overflow: hidden;
+    padding-top: 100px;
+    padding-left: 400px;
+    
+}
+
+
+.imgSilder {
+    width: 350px;
+    height: 28rem;
+    margin: 20px;
+    background-image: url("/images/trans1.jpg");
+    background-size: 100% 100%;
+    animation: changeImage 10s linear infinite;
+}
+
+
+
+@keyframes changeImage {
+    20% {
+        background-image: url("/images/trans1.jpg");
+    }
+
+    20% {
+        background-image: url("/images/trans_2.jpg");
+    }
+
+    20% {
+        background-image: url("/images/trans2.jpg");
+    }
+
+    20% {
+        background-image: url("/images/trans3.jpg");
+    }
+
+    0% {
+        background-image: url("/images/trans_1.jpg");
+    }
+}
+@media screen and (max-width:480px){
+    #temp1 {
+        /* width: 100%; */
+        max-width: 100%;
+        height: auto;
+        color: rgb(0, 0, 0);
+        display: inline-flex;
+        /* border: 2px solid black; */
+       /*  padding-left: 300px;
+        padding-top: 50px; */
+        text-align: center;
+        padding-left: 1px;
+        text-overflow: hidden;
+        padding-top: 1px;
+    }
+    
+#temp {
+    display: unset;
+}
+}
