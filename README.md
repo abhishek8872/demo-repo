@@ -1,5 +1,1 @@
-# Demo.
-
-Some description!
-
-
+# frontend-mini-project
